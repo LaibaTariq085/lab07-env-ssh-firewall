@@ -64,3 +64,16 @@ Expected result: All three student variables should be displayed.
 printenv | grep '^STUDENT_'
 
 Expected result: All three variables should still be displayed after reconnect.
+
+JOB 1: Environment Audit
+
+1. Display PATH:
+printenv | grep '^PATH='
+
+2. Display LANG:
+printenv | grep '^LANG='
+
+3. Display PWD:
+printenv | grep '^PWD='
+
+4. Save the environment values in challenge.md.
